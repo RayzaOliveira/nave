@@ -1,0 +1,32 @@
+#page-add {
+  width: 100vw;
+  padding: 16px;
+}
+
+#page-add form fieldset {
+  border: none;
+}
+
+@media (min-width: 600px) {
+  #page-add {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  #page-add form .fields {
+    display: flex;
+  }
+
+  #page-add form fieldset {
+    width: 100%;
+  }
+
+  #page-add form fieldset:last-child {
+    margin-left: 32px;
+  }
+
+  #page-add form button {
+    width: 176px;
+    margin-left: auto;
+  }
+}
