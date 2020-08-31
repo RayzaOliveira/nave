@@ -1,0 +1,25 @@
+.container-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 8px;
+}
+
+.card-login {
+  border: 2px solid black;
+  padding: 32px;
+  max-width: 448px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-login img {
+  margin: 8px 0 40px;
+}
+
+.card-login form {
+  width: 100%;
+}
