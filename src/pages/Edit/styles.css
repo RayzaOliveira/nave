@@ -1,0 +1,32 @@
+#page-edit {
+  width: 100vw;
+  padding: 16px;
+}
+
+#page-edit form fieldset {
+  border: none;
+}
+
+@media (min-width: 600px) {
+  #page-edit {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  #page-edit form .fields {
+    display: flex;
+  }
+
+  #page-edit form fieldset {
+    width: 100%;
+  }
+
+  #page-edit form fieldset:last-child {
+    margin-left: 32px;
+  }
+
+  #page-edit form button {
+    width: 176px;
+    margin-left: auto;
+  }
+}
