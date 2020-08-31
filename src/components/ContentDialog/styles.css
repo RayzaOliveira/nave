@@ -1,0 +1,21 @@
+.content-dialog {
+  width: calc(100vw - 64px);
+  margin: 32px;
+  position: relative;
+}
+
+.content-dialog button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.content-dialog h2 {
+  margin-bottom: 24px;
+}
+
+@media (min-width: 600px) {
+  .content-dialog {
+    width: 592px;
+  }
+}

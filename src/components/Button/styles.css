@@ -1,0 +1,23 @@
+button.btn-primary {
+  width: 100%;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  background-color: #000;
+  color: #FFF;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+button.btn-primary:hover {
+  background-color: #333;
+}
+
+button:disabled {
+  background-color: #555;
+  cursor: unset;
+}

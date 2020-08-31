@@ -1,0 +1,13 @@
+#header-common {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 0 32px;
+}
+
+button {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+}

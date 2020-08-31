@@ -1,0 +1,41 @@
+.container-card-perfil {
+  transition-duration: 0.2s;
+  width: 100%;
+}
+
+.container-card-perfil:hover {
+  transform: scale(1.05)
+}
+
+.container-card-perfil .card-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+}
+
+.container-card-perfil .card-footer > strong,
+.container-card-perfil .card-footer > span {
+  margin-bottom: 4px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container-card-perfil .card-footer .buttons {
+  margin-top: 8px;
+}
+
+.container-card-perfil > .avatar {
+  width: 100%;
+  background-color: #999;
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .container-card-perfil {
+    max-width: 280px;
+  }
+
+  .container-card-perfil > .avatar {
+    height: 280px;
+  }
+}

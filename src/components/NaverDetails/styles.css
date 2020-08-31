@@ -1,0 +1,71 @@
+.container-dialog-perfil {
+  width: calc(100vw - 32px);
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid black;
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-dialog-perfil > img {
+  width: 100%;
+}
+
+.container-dialog-perfil .content-dialog-perfil {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.block-info strong,
+.block-info p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content-dialog-perfil .block-info {
+  margin-bottom: 16px;
+}
+
+@media (min-width: 980px) {
+  .container-dialog-perfil {
+    max-width: 980px;
+    display: flex;
+  }
+
+  .container-dialog-perfil > img {
+    width: 50%;
+  }
+
+  .container-dialog-perfil .content-dialog-perfil  {
+    padding: 32px;
+  }
+
+  .content-dialog-perfil .block-info {
+    margin-bottom: 24px;
+  }
+
+  .content-dialog-perfil .block-info.title strong {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .content-dialog-perfil .buttons {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .close-button {
+    border: none;
+  }
+}

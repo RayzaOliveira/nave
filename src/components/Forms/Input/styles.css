@@ -1,0 +1,21 @@
+.input-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.input-block label {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.input-block input {
+  font-size: 16px;
+  line-height: 24px;
+  border-width: 1px;
+  width: 100%;
+  padding: 8px;
+}
