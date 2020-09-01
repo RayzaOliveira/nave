@@ -43,6 +43,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 - O site está disponível: **[Nave](https://nave-rs.netlify.app/)**
 
+- Dados de acesso: 
+  - E-mail: rayza.ocr@gmail.com
+  - Senha : admin123
+
 <h1 align="center">
 	<img src="https://github.com/RayzaOliveira/nave/blob/master/assets/web.gif?raw=true" alt="Apresentacao web" />
 </h1>
