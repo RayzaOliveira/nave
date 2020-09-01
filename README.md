@@ -2,7 +2,7 @@
     <img alt="Logo" title="#logo" width="320px" src="https://raw.githubusercontent.com/RayzaOliveira/nave/master/src/assets/logo.png">
     <br />
     <br />
-    <b>Desafio de front-end</b>
+    <b>Desafio de Front-End</b>
     <br />
 </h3>
 <p align="center">
@@ -41,7 +41,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ## :heavy_check_mark: :computer: Resultado Web e Mobile
 
-- O site está disponível aqui **[Nave](https://nave-rs.netlify.app/)**
+- O site está disponível: **[Nave](https://nave-rs.netlify.app/)**
 
 <h1 align="center">
 	<img src="https://github.com/RayzaOliveira/nave/blob/master/assets/web.gif?raw=true" alt="Apresentacao web" />
@@ -92,7 +92,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 <a id="dificuldades"></a>
 
-## :recycle: Dificuldades
+## 📌 Dificuldades
 
  - Houve dificuldade no desenvolvimento do componente de confirmação de exclusão, pois, o mesmo não foi possível fazer de forma simplificada. Porém pode-se utilizar a lib de sweet-alert para esse tipo de confimação. Não foi utilizado, para que não quebrasse o layout proposto no Figma.
  - Nos campos de idade e tempo de empresa, foi alterado para data de nascimento e data de admissão, visto que a api entregue, espera uma data em ambas. Sendo assim, com essas informações pode-se obter a idade e tempo de admissão.  
