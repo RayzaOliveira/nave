@@ -12,7 +12,7 @@ import './styles.css'
 
 function Login() {
   const [loading, setLoading] = useState(false)
-  const [formLogin, setFormLogin] = useState({ email: 'testing-user@nave.rs', password: 'nave1234' })
+  const [formLogin, setFormLogin] = useState({ email: 'rayza.ocr@gmail.com', password: 'admin123' })
   const history = useHistory()
 
   async function login() {
